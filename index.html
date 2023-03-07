@@ -6,27 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="/icon/fontawesome-free-6.3.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./icon/fontawesome-free-6.3.0-web/css/all.min.css">
 </head>
 <body>
     <!-- <div>Nguyễn Trọng Thế</div> -->
     <div class="container">
         <div class="container__img">
-            <img src="/img/messi1.jpeg" alt="">
+            <img src="./img/messi1.jpeg" alt="">
         </div>
         <h2>Nguyễn Trọng Thế</h2>
         <div class="icon-social">
             <a href="https://www.facebook.com/profile.php?id=100008138418270" class="icon-link">
                 <i class="fab fa-facebook"></i>
             </a>
-            <a href="" class="icon-link">
+            <a href="https://www.instagram.com/trongthe21/" class="icon-link">
                 <i class="fab fa-instagram"></i>
             </a>
             <a href="https://github.com/TrongThe" class="icon-link">
                 <i class="fab fa-github"></i>
             </a>
+            <a href="" class="icon-link">
+                <i class="fa-solid fa-user"></i>
+            </a>
         </div> 
+        <button id="button">Contact me</button>
     </div>
-   
+    <div id="contact">
+        <a href="" class="back">
+            <i class="fa-sharp fa-regular fa-arrow-left"></i>
+        </a>
+        <p class="contact-phone">Number phone: 0923847687</p>
+        <p class="contact-mail">Gmail: trongthe21@gmail.com</p>
+    </div>
+    <script>
+        document.getElementById("button").onclick = function(){
+            document.getElementById("contact").style.display = 'block';
+        };
+    </script> 
 </body>
 </html>

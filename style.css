@@ -17,6 +17,11 @@ body{
 .icon-link{
     color: white;
     margin: 20px 20px;
+    text-decoration: none;
+}
+.icon-link:hover{
+    color: #53e012;
+    font-size: 20px;
 }
 .container{
     background: #652b33e8;
@@ -25,6 +30,7 @@ body{
     border-radius: 10px;
     text-align: center;
     overflow: hidden;
+    display: block;
 }
 h2{
     margin-top: 36px;
@@ -52,4 +58,47 @@ img{
     transform: unset;
     border: none;
     transition: 0.3s;
+    cursor: pointer;
  } 
+
+.container button{
+    height: 40px;
+    width: 150px;
+    margin-top: 50px;
+    border: 1px solid #8569db;
+    background: transparent;
+    border-radius: 10px;
+    color: white;
+    font-size: 13px;
+ }
+
+.container button:hover{
+    background: #8569db;
+    cursor: pointer;
+}
+
+#contact{
+    position: fixed;
+    background:#461e02;
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    display: none;
+ }
+ .back{
+    color: white;
+    display: flex;
+    margin: 16px 12px;
+    text-decoration: none;
+ }
+.contact-phone{
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+ }
+.contact-mail{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+ }
+ 
